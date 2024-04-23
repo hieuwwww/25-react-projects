@@ -1,7 +1,12 @@
 import "./App.css";
 import Accordian from "./components/accordian";
 import ImageSlider from "./components/image-slider";
+import LoadMore from "./components/load-more";
+import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/random-color-generator";
+import StarRating from "./components/star-rating";
+import TreeView from "./components/tree-view";
+import menus from "./components/tree-view/data";
 
 function App() {
   return (
@@ -10,12 +15,20 @@ function App() {
       <Accordian />
       {RandomColor component}
       <RandomColor />
-      Image slider coponent */}
-      <ImageSlider
+      Image slider component */}
+      {/* StarRating component */}
+      {/* <StarRating noOfStars={10} /> */}
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
-      />
+      /> */}
+      {/* LoadMore component*/}
+      {/* <LoadMore /> */}
+      {/* Tree view component/Menu UI component */}
+      {/* <TreeView menus={menus} /> */}
+      {/* QR code generator component */}
+      <QRCodeGenerator />
     </div>
   );
 }
