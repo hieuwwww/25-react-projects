@@ -1,14 +1,12 @@
 .container {
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
   display: flex;
   justify-content: center;
   align-items: center;
   width: 600px;
   height: 450px;
 }
+
 .current-image {
   border-radius: 0.5rem;
   box-shadow: 0px 0px 7px #666;
@@ -23,13 +21,13 @@
   color: #fff;
   filter: drop-shadow(0px 0px 5px #555);
 }
+
 .arrow-left {
   left: 1rem;
-  cursor: pointer;
 }
+
 .arrow-right {
-  right: 1em;
-  cursor: pointer;
+  right: 1rem;
 }
 
 .circle-indicators {
@@ -37,6 +35,7 @@
   position: absolute;
   bottom: 1rem;
 }
+
 .current-indicator {
   background-color: #ffffff;
   height: 15px;
