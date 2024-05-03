@@ -27,7 +27,7 @@ export default function RandomColor() {
   }, [typeOfColor]);
   return (
     <div
-      className="container"
+      className="color-container"
       style={{
         width: "100vw",
         height: "100vh",
